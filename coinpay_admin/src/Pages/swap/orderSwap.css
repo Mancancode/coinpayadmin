@@ -1,0 +1,73 @@
+.orderSwap {
+  width: 85%;
+  justify-content: space-between;
+  padding: inherit;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: #e1f1dd;
+}
+
+.orderSwapMoneyContianer {
+  display: flex;
+}
+.orderSwapMoney {
+  font-size: 30px;
+  font-weight: 600;
+  color: #0a1931;
+}
+
+.orderSwapTitle {
+  font-size: 40px;
+  font-weight: 600;
+  color: gray;
+}
+
+.orderSwapMoneyRate {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.orderSwapIcon {
+  margin-left: 10px;
+  font-size: 14px;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  color: red;
+}
+.orderSwapIcon.up {
+  color: green;
+}
+.orderSwapSub {
+  font-size: 15px;
+  color: gray;
+}
+.orderSwapItem.TotalDown {
+  float: right;
+}
+.orderSwapTable {
+  padding-left: 2rem;
+}
+
+.oderSwapTotalContianer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: inherit;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-bottom: 5rem;
+}
+
+.orderSwapItem {
+  flex: 1;
+  margin: 0px 20px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  justify-content: space-evenly;
+  background-color: white;
+  box-shadow: 1px 10px 32px -15px rgba(10, 10, 10, 0.75);
+  -webkit-box-shadow: 1px 10px 32px -15px rgba(10, 10, 10, 0.75);
+  -moz-box-shadow: 1px 10px 32px -15px rgba(59, 58, 58, 0.75);
+}

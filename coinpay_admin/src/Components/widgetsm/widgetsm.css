@@ -1,0 +1,68 @@
+.widgetsm {
+  flex: 1;
+  background-color: burlywood;
+  padding: 20px;
+  margin-right: 20px;
+  box-shadow: 1px 10px 32px -15px rgba(10, 10, 10, 0.75);
+  -webkit-box-shadow: 1px 10px 32px -15px rgba(10, 10, 10, 0.75);
+  -moz-box-shadow: 1px 10px 32px -15px rgba(10, 10, 10, 0.75);
+}
+.widgetsmTitle {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.widgetLIst {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.widgetLIstItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.widgetIcon {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+.widgetData {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  margin-right: 50px;
+}
+.widgetNum {
+  font-size: 15;
+}
+
+.widgetRange {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  font-weight: 600;
+}
+.widgetViewIcon {
+  font-size: 15;
+  margin-right: 10px;
+}
+.widgetArrow {
+  font-size: 15;
+  margin: 0px 10px;
+  border-radius: 50%;
+  background-color: #978d8d;
+  color: green;
+}
+.widgetArrowof {
+  color: red;
+  font-size: 15;
+  margin: 0px 10px;
+  border-radius: 50%;
+  background-color: #978d8d;
+}

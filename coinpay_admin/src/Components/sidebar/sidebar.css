@@ -1,0 +1,52 @@
+.sidebar {
+  flex: 1;
+  height: calc(100vh - 50px);
+  background-color: #0a1931;
+  position: sticky;
+  top: 50;
+}
+
+.sidebarWrapper {
+  padding: 20px 0px 20px 20px;
+  color: #e1f1dd;
+}
+
+.sidebarMenu {
+  margin-bottom: 20px;
+}
+
+.sidebarTitle {
+  font-size: 13px;
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 10px 0px;
+}
+
+.sidebarListItem {
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.sidebarListItem.active,
+.sidebarListItem:hover {
+  background-color: #0c4271;
+}
+
+.featuredTitle {
+  font-size: 20px;
+}
+
+.featuredMoneyContianer {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+.featuredMoney {
+  font-size: 30px;
+  font-weight: 600px;
+}

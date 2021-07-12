@@ -1,0 +1,56 @@
+.orderList {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: inherit;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.orderListItem {
+  flex: 1;
+  margin: 0px 0px 40% 20px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  list-style: none;
+  justify-content: space-evenly;
+  background-color: white;
+  box-shadow: 1px 10px 32px -15px rgba(10, 10, 10, 0.75);
+  -webkit-box-shadow: 1px 10px 32px -15px rgba(10, 10, 10, 0.75);
+  -moz-box-shadow: 1px 10px 32px -15px rgba(10, 10, 10, 0.75);
+}
+.orderListMoneyContianer {
+  display: flex;
+}
+.orderListMoney {
+  font-size: 30px;
+  font-weight: 600;
+  color: #0a1931;
+}
+.orderListTitle {
+  font-size: 40px;
+  font-weight: 600;
+  color: gray;
+}
+
+.orderListMoneyRate {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.orderListIcon {
+  margin-left: 10px;
+  font-size: 14px;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  color: red;
+}
+.orderListIcon.Up {
+  color: green;
+}
+.orderListSub {
+  font-size: 15px;
+  color: gray;
+}

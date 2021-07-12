@@ -1,0 +1,15 @@
+.widgetlg {
+  flex: 2;
+  background-color: #f8f5f1;
+  padding: inherit;
+  margin-bottom: 20px;
+  box-shadow: 1px 10px 32px -15px rgba(10, 10, 10, 0.75);
+  -webkit-box-shadow: 1px 10px 32px -15px rgba(10, 10, 10, 0.75);
+  -moz-box-shadow: 1px 10px 32px -15px rgba(10, 10, 10, 0.75);
+}
+.WidgetTitle {
+  padding: 20px 10px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #0a1931;
+}

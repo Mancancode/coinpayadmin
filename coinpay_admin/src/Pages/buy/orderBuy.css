@@ -1,0 +1,73 @@
+.orderBuy {
+  width: 100%;
+  justify-content: space-between;
+  padding: inherit;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: #e1f1dd;
+}
+
+.orderBuyMoneyContianer {
+  display: flex;
+}
+.orderBuyMoney {
+  font-size: 30px;
+  font-weight: 600;
+  color: #0a1931;
+}
+
+.orderBuyTitle {
+  font-size: 40px;
+  font-weight: 600;
+  color: gray;
+}
+
+.orderBuyMoneyRate {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.orderBuyIcon {
+  margin-left: 10px;
+  font-size: 14px;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  color: red;
+}
+.orderBuyIcon.up {
+  color: green;
+}
+.orderBuySub {
+  font-size: 15px;
+  color: gray;
+}
+.orderBuyItem.TotalDown {
+  float: right;
+}
+.orderBuyTable {
+  padding-left: 2rem;
+}
+
+.oderBuyTotalContianer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: inherit;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-bottom: 5rem;
+}
+
+.orderBuyItem {
+  flex: 1;
+  margin: 0px 20px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  justify-content: space-evenly;
+  background-color: white;
+  box-shadow: 1px 10px 32px -15px rgba(10, 10, 10, 0.75);
+  -webkit-box-shadow: 1px 10px 32px -15px rgba(10, 10, 10, 0.75);
+  -moz-box-shadow: 1px 10px 32px -15px rgba(59, 58, 58, 0.75);
+}
