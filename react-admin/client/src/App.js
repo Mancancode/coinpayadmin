@@ -6,7 +6,7 @@ import Dashboard from './components/Dashboard'
 // import RateList from './components/RateList'
 // import UserList from './components/UserList'
 // import ReferEarnList from './components/ReferEarnList'
-// import TimelineIcon from '@material-ui/icons/Timeline';
+import TimelineIcon from '@material-ui/icons/Timeline';
 import PeopleIcon from '@material-ui/icons/People';
 import ShopIcon from '@material-ui/icons/Shop';
 import HomeIcon from '@material-ui/icons/Home';
@@ -35,7 +35,11 @@ function App() {
         list={UsersList}
         icon={PeopleIcon}
         />
-        <Orders />
+        <Resource 
+        name='orders' 
+        list={Orders}
+        icon={TimelineIcon}
+        />
 
 
         {/* <Resource 

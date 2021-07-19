@@ -28,10 +28,20 @@ const Orders = () => {
         children: <div className={`MuiIndicator-${tabIndex}`} />,
       }}
     >
-      <Tab
+    <Tab
         classes={tabItem1Styles}
         disableTouchRipple
-        label={'Primary'}
+        label={
+          <div className={'MuiTabItem-labelGroup'}>
+            <div className={'MuiTabItem-label'}>
+            </div>
+              BUY
+            <div>
+            <span className={'MuiTabItem'}>28,000</span>      <span className={'MuiTabItem-tag'}>-180</span>
+            </div>
+            <div className={'MuiTabItem-subLabel'}>Compared to last 24hrs</div>
+          </div>
+        }
         icon={<Inbox />}
       />
       <Tab
@@ -40,23 +50,46 @@ const Orders = () => {
         label={
           <div className={'MuiTabItem-labelGroup'}>
             <div className={'MuiTabItem-label'}>
-              Social <span className={'MuiTabItem-tag'}>2 new</span>
             </div>
-            <div className={'MuiTabItem-subLabel'}>Youtube, LinkedIn</div>
+              SWAP    
+            <div>
+            <span className={'MuiTabItem'}>18,000</span>      <span className={'MuiTabItem-tag'}>+180</span>
+            </div>
+            <div className={'MuiTabItem-subLabel'}>Compared to last 24hrs</div>
           </div>
         }
         icon={<People />}
       />
-      <Tab
+<Tab
         classes={tabItem3Styles}
         disableTouchRipple
-        label={'Promotions'}
+        label={
+          <div className={'MuiTabItem-labelGroup'}>
+            <div className={'MuiTabItem-label'}>
+            </div>
+              SELL 
+            <div>
+            <span className={'MuiTabItem'}>61,000</span>      <span className={'MuiTabItem-tag'}>+190</span>
+            </div>
+            <div className={'MuiTabItem-subLabel'}>Compared to last 24hrs</div>
+          </div>
+        }
         icon={<LocalOffer />}
       />
-      <Tab
+     <Tab
         classes={tabItem4Styles}
         disableTouchRipple
-        label={'Updates'}
+        label={
+          <div className={'MuiTabItem-labelGroup'}>
+            <div className={'MuiTabItem-label'}>
+            </div>
+              SEND
+            <div>
+            <span className={'MuiTabItem'}>8,000</span>      <span className={'MuiTabItem-tag'}>-80</span>
+            </div>
+            <div  className={'MuiTabItem-subLabel'}>Compared to last 24hrs</div>
+          </div>
+        }
         icon={<Info />}
       />
     </Tabs>

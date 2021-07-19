@@ -4,7 +4,7 @@
       "id": "1",
       "name": "Afam dulux",
       "email": "afamba@xxx.com",
-      "status": "declined",
+      "status": "pending",
       "memo_id": "Afam-1",
       "date": "10/02/2021",
       "coin": "BTC",
@@ -73,7 +73,7 @@
   ],
   "users": [
     {
-      "id": "2",
+      "id": "1",
       "name": "Frank Ijoba ",
       "email": "Ijobafrank@xxx.com",
       "createdOn": "10/02/2021",
@@ -89,7 +89,7 @@
       "transactions": "$200"
     },
     {
-      "id": "2",
+      "id": "3",
       "name": "Frank Ijoba ",
       "email": "Ijobafrank@xxx.com",
       "createdOn": "10/02/2021",
@@ -97,12 +97,28 @@
       "transactions": "$200"
     },
     {
-      "id": "2",
+      "id": "4",
       "name": "Frank Ijoba ",
       "email": "Ijobafrank@xxx.com",
       "createdOn": "10/02/2021",
       "status": "active",
       "transactions": "$200"
+    },
+    {
+      "name": "Bill ejira ",
+      "email": "billsafrank@xxx.com",
+      "createdOn": "10/02/2021",
+      "status": "active",
+      "transactions": "$200",
+      "id": "ua_z_FX"
+    },
+    {
+      "name": "uzo amadi ",
+      "email": "uzoafrank@xxx.com",
+      "createdOn": "10/08/2021",
+      "status": "active",
+      "transactions": "$800",
+      "id": "5riSCbz"
     }
   ]
 }
